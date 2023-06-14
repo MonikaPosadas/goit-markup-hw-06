@@ -449,6 +449,29 @@ li {
 .sm-footer {
   fill: #ffffff;
 }
+.newsletter-block {
+  margin-left: 815px;
+  margin-top: 712px;
+  margin-right: 215px;
+  margin-bottom: 94px;
+  width: 570px;
+  height: 86px;
+}
+.newsletter-sign-up {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-secondary);
+  width: 207px;
+  height: 16px;
+  padding-left: 815px;
+  padding-top: 72px;
+  padding-bottom: 20px;
+}
+.newsletter-form {
+}
 .portfolio-buttons {
   display: flex;
   justify-content: center;
