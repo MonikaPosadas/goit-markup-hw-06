@@ -485,29 +485,69 @@ li {
 .sm-footer {
   fill: #ffffff;
 }
-.newsletter-block {
-  margin-left: 815px;
-  margin-top: 712px;
-  margin-right: 215px;
-  margin-bottom: 94px;
-  width: 570px;
-  height: 86px;
+.footer-newsletter {
+  margin-left: 78px;
 }
-.newsletter-sign-up {
+.box-send-newsletter {
+  display: inline-flex;
+}
+.text-newsletter-footer {
+  display: flex;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--color-secondary);
-  width: 207px;
-  height: 16px;
-  padding-left: 815px;
-  padding-top: 72px;
+  color: #ffffff;
   padding-bottom: 20px;
 }
-.newsletter-form {
+.email-window-footer > input {
+  display: flex;
+  align-items: center;
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  background-color: var(--background-color-dark);
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  padding-left: 16px;
 }
+.button-send-newsletter {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  position: relative;
+  margin-left: 12px;
+}
+.button-send-newsletter > button {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  background-color: var(--color-primary);
+  box-shadow: rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 188%;
+  padding-left: 42px;
+}
+.send-icon-button {
+  display: flex;
+  position: absolute;
+  margin-top: 13px;
+  margin-left: 24px;
+  margin-right: 28px;
+  fill: #ffffff;
+}
+
 .portfolio-buttons {
   display: flex;
   justify-content: center;
