@@ -24,6 +24,9 @@
 li {
   list-style: none;
 }
+
+/* ======header-section===== */
+
 .link-header :focus {
   color: var(--color-primary);
   transition-duration: 250ms;
@@ -139,6 +142,9 @@ li {
   letter-spacing: 0.03em;
   color: var(--color-primary);
 }
+
+/* ======main-section===== */
+
 .buttons:hover {
   color: var(--color-secondary);
   cursor: pointer;
@@ -186,6 +192,9 @@ li {
   padding: 200px 0;
   margin: 0 auto;
 }
+
+/* ======our-strenghts===== */
+
 .symbol-strenghts-list {
   list-style: none;
   margin-bottom: 30px;
@@ -230,6 +239,9 @@ li {
   margin: 0;
   color: var(--second-font-color);
 }
+
+/* ======our-services===== */
+
 .section-service-title {
   font-weight: 700;
   font-size: 36px;
@@ -254,6 +266,9 @@ li {
   padding-top: 27px;
   padding-bottom: 27px;
 }
+
+/* ======our-team===== */
+
 .section-team-images {
   background-color: var(--background-color-medium);
   padding-top: 94px;
@@ -349,6 +364,9 @@ li {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: background-color;
 }
+
+/* ======our-customers===== */
+
 .section-customers-title {
   font-size: 36px;
   letter-spacing: 0.03em;
@@ -392,6 +410,9 @@ li {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: color;
 }
+
+/* ======footer===== */
+
 .background-footer {
   background: var(--background-color-dark);
   padding-top: 60px;
@@ -693,8 +714,12 @@ li {
   top: 221px;
 }
 
-/*=== Modal Form ===*/
+/*===modal-form===*/
 
+.form {
+  padding-left: 40px;
+  padding-right: 40px;
+}
 .modal-title {
   font-weight: 700;
   font-size: 20px;
@@ -798,7 +823,7 @@ li {
   display: block;
   position: relative;
 }
-/* Check */
+/*=== Check ===*/
 
 .check {
   padding-left: 30px;
@@ -827,20 +852,20 @@ li {
   box-shadow: 0 0 0 0.1em #4a90e2;
 }
 
-/* Checked */
+/*===Checked=== */
 
 .check__input:checked + .check__box {
   background-color: #4a90e2;
   background-image: url(../images/icon-checked.svg);
 }
 
-/* Focused */
+/*===Focused===*/
 
 .check__input:focus + .check__box {
   box-shadow: 0 0 0 0.1em #4a90e2;
 }
 
-/* Disabled */
+/*===Disabled===*/
 
 .check__input:disabled + .check__box {
   box-shadow: 0 0 0 0.1em #9b9b9b;
